@@ -5,7 +5,7 @@ export function About() {
             <div className="container">
                 <div className="about__wrapper">
                     <div className="about__text">
-                        <h2>Hello, I'm Frederico, from Portugal, and I am currently studying Web Development.</h2>
+                        <h2>Hello, I'm Frederico, from Portugal, and I am a Web Developer.</h2>
                         <hr />
                         <p>
                             I took a programming course in highschool focused on back-end development and
