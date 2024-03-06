@@ -1,19 +1,13 @@
 import Header from './components/Header'
+import { Home } from './pages/Home/Home'
+import { About } from './pages/About/About'
 
 function App() {
 
   return (
 		<>
-			<Header />
-			<section id='hero' className='hero'>
-				<div className='container'>
-					<div className='hero__wrapper'>
-						<h1>
-							Hello! I'm <span>Frederico</span>,<br />a <span>Web Development</span> student.
-						</h1>
-					</div>
-				</div>
-			</section>
+		  <Header />
+		  <About/>
 		</>
 	);
 }

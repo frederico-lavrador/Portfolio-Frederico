@@ -1,0 +1,19 @@
+.hero__wrapper {
+	font-family: 'Abel', sans-serif;
+	display: flex;
+	margin: 1rem 0;
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2rem;
+}
+
+.hero__wrapper h1{
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.hero__wrapper span {
+	font-weight: 700;
+}

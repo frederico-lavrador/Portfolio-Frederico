@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom'
 import Socials from './Socials'; /* Replace this with UseContext */
 import ThemeToggle from './ThemeToggle'; /* Replace this with UseContext */
 
