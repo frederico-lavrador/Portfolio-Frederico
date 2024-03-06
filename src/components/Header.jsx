@@ -13,7 +13,7 @@ function Header() {
 					<ul>
 						<li>About Me</li>
 						<li>Projects</li>
-						<li>Contact</li>
+						<li>Contact Me</li>
 					</ul>
 				</nav>
 				<div className='header__utilities'>

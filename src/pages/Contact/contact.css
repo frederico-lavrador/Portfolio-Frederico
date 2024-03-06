@@ -1,0 +1,11 @@
+.contact {
+	font-family: 'Abel', sans-serif;
+}
+
+.contact__wrapper {
+	display: flex;
+	margin: 1rem 0;
+	height: 80vh;
+	padding: 0 5rem;
+	justify-content: center;
+}

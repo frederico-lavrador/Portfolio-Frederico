@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import './pages/Home/home.css'
 import './pages/About/about.css'
+import './pages/Contact/contact.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
