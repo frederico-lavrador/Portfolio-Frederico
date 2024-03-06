@@ -13,8 +13,25 @@
 	align-items: center;
 }
 
-.contact__form input {
+.contact__form {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+}
+
+.contact__form form{
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	padding: 2rem 2rem;
 	width: 100%;
-	padding: 0.5rem;
+}
+
+.contact__form input{
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+	height: 40px;
+	background: #000000;
+	color: #ffffff;
 }

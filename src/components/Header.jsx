@@ -12,9 +12,7 @@ function Header() {
 					</div>
 					<nav className='header__navbar'>
 						<ul>
-							<li>
-								<Link to='/about'>About Me</Link>
-							</li>
+							<li>About Me</li>
 							<li>Projects</li>
 							<li>Contact Me</li>
 						</ul>

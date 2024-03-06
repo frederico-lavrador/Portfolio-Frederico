@@ -9,6 +9,10 @@ import './pages/About/about.css'
 import './pages/Contact/contact.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <RouterProvider route = {router} />
+    <App/>
 )
+
+{
+	/* <RouterProvider route={router} /> */
+}
     
