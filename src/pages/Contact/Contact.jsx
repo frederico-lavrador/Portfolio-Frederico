@@ -9,11 +9,11 @@ export function Contact() {
                     </div>
                     <div className="contact__form">
                         <form action="">
-                            Name:
-                            <input type="text" placeholder="Name" />
-                            <br />
-                            Email:
-                            <input type="email" placeholder="Email" />
+                            <input type="text" placeholder="Your Name..." />
+
+                            <input type="email" placeholder="Your Email..." />
+
+                            <input type="text" placeholder="Your Message..." />
 
                         </form>
                     </div>
