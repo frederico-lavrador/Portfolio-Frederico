@@ -3,12 +3,12 @@
 
 * {
 	background-color: #ebebeb;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 .container {
 	
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .header__wrapper {
