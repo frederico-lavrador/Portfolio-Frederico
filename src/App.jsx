@@ -1,17 +1,13 @@
-import { Outlet } from 'react-router-dom'
-import Header from './components/Header'
-import { Home } from './pages/Home/Home'
-import { About } from './pages/About/About'
-import { Contact } from './pages/Contact/Contact'
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 
 function App() {
-
-  return (
+	return (
 		<>
-		  <Header />
-		  <Contact/>
+			<Header />
+			<Outlet/>
 		</>
 	);
 }
 
-export default App
+export default App;

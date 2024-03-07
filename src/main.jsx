@@ -7,12 +7,8 @@ import './index.css'
 import './pages/Home/home.css'
 import './pages/About/about.css'
 import './pages/Contact/contact.css'
+import './pages/Projects/projects.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <App/>
-)
-
-{
-	/* <RouterProvider route={router} /> */
-}
-    
+  <RouterProvider router={router} />
+);

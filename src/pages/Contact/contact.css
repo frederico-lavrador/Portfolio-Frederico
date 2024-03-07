@@ -7,10 +7,14 @@
 	flex-direction: column;
 	margin: 1rem 0;
 	height: 80vh;
-	gap: 5rem;
+	gap: 2rem;
 	padding: 0 5rem;
 	justify-content: center;
 	align-items: center;
+}
+
+.contact__text {
+	font-size: 28px;
 }
 
 .contact__form {
@@ -32,6 +36,17 @@
 	font-family: 'Abel', sans-serif;
 	font-size: 18px;
 	height: 40px;
-	background: #000000;
-	color: #ffffff;
+	background: #ebebeb;
+	color: #303030;
+	border: 2px solid #000000;
+	border-radius: 7px;
+}
+
+.contact__form textarea {
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+	height: 10vh;
+	border: 2px solid #000000;
+	background: #ebebeb;
+	color: #303030;
 }
