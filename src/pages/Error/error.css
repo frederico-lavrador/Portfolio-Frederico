@@ -1,0 +1,16 @@
+.error {
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+}
+
+.error__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.error__wrapper hr{
+    width: 30%;
+}
