@@ -2,7 +2,7 @@
 	font-family: 'Abel', sans-serif;
 	display: flex;
 	margin: 1rem 0;
-	height: 50vh;
+	min-height: 80vh;
 	justify-content: center;
 	align-items: center;
 	padding: 0 2rem;

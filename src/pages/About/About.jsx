@@ -1,3 +1,4 @@
+
 export function About() {
     
     return (
@@ -12,7 +13,7 @@ export function About() {
                             decided to expand my knowledge in this field by educating myself on front-end development.
                             <br />
                             Recently I have learned the basics of JavaScript and React and now I am looking to learn
-                            about back-end tools, mainly SQL and Node.js
+                            about back-end tools, mainly SQL and Node.js.
                             <br />
                             I am passionate about programming and I am always happy to face new challenges.
                         </p>

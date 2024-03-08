@@ -6,7 +6,7 @@
 .error__wrapper {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    min-height: 80vh;
     justify-content: center;
     align-items: center;
 }
