@@ -1,0 +1,9 @@
+body {
+    background-color: #ebebeb;
+    color: #000000;
+}
+
+.header__LightDarkBtn button {
+	color: #ffa500;
+	background: #ebebeb;
+}

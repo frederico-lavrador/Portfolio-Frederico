@@ -1,0 +1,21 @@
+body {
+    background-color: #222222;
+	color: #ebebeb;
+}
+
+.header__logo a {
+	color: #ebebeb;
+}
+
+.header__navbar a {
+	color:#ebebeb;
+}
+
+.header__socials i {
+	color: #ebebeb;
+}
+
+.header__LightDarkBtn button {
+	color: #ebebeb;
+	background: #222222;
+}
