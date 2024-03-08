@@ -3,6 +3,18 @@ body {
     color: #000000;
 }
 
+.header__logo a {
+	color: #000000;
+}
+
+.header__navbar a {
+	color: #000000;
+}
+
+.header__socials i {
+	color: #000000;
+}
+
 .header__LightDarkBtn button {
 	color: #ffa500;
 	background: #ebebeb;

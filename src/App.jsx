@@ -6,8 +6,8 @@ function App() {
 	return (
 		<>
 			<ThemeProvider>
-				<Header />
-				<Outlet />
+				<Header/>
+				<Outlet/>
 			</ThemeProvider>
 		</>
 	);

@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); /** This is the Body Font */
 
 body {
-	background-color: #ebebeb;
-	/* border: 1px solid green; */
+	border: 1px solid green;
 }
 
 /* .container {
@@ -27,7 +26,6 @@ body {
 
 .header__logo a {
 	text-decoration: none;
-	color: #000000;
 }
 
 .header__navbar ul {
@@ -47,7 +45,6 @@ body {
 
 .header__navbar a {
 	text-decoration: none;
-	color:#000000;
 }
 
 .header__navbar li:hover {
@@ -73,15 +70,9 @@ body {
 	font-size: 1.5rem;
 }
 
-.header__socials i {
-	color: #000000;
-}
-
 .header__LightDarkBtn button {
 	display: flex;
 	cursor: pointer;
 	font-size: 1.5rem;
 	border: none;
-	color: #ffa500;
-	background: #ebebeb;
 }

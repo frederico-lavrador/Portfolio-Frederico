@@ -8,9 +8,9 @@ function ThemeToggle() {
 		<div className='header__LightDarkBtn'>
 			<button onClick={toggleTheme}>
 				{darkMode ?
-					<i className='fa fa-sun-o' aria-hidden='true'></i>
+					<i className='fa fa-moon-o' aria-hidden='true'></i>
 					:
-					<i className='fa fa-moon-o' aria-hidden='true'></i>}
+					<i className='fa fa-sun-o' aria-hidden='true'></i>}
 			</button>
 		</div>
 	);
