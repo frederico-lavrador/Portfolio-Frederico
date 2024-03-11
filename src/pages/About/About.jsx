@@ -23,7 +23,7 @@ export function About() {
                         </p>
                     </div>
                     <div className="about__img">
-                        <img src="" alt="" />
+                        <img src="../../assets/foto_portfolio.jpg" alt="foto_portfolio" />
                     </div>
                 </div>
             </div>
