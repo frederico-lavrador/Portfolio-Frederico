@@ -1,0 +1,12 @@
+{
+    "home": [
+        {
+            "id": 1,
+            "text": "Hello! I'm",
+            "name": "Frederico",
+            "connector" : ", \n a",
+            "occupation": "Web Developer",
+            "text_end": "."
+        }
+    ]
+}
