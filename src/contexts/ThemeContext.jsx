@@ -1,11 +1,11 @@
 import { createContext, useReducer, useEffect, useContext } from 'react';
-import { themeReducer } from '../reducer'
+import { reducer } from '../reducer'
 
 const ThemeContext = createContext();
 export const useTheme = () => useContext(ThemeContext);
 export const ThemeProvider = ({ children }) => {
 
-	const [state, dispatch] = useReducer(themeReducer, {
+	const [state, dispatch] = useReducer(reducer, {
 		darkMode: false,
 	});
 

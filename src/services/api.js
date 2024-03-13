@@ -2,9 +2,17 @@ import axios from 'axios'
 
 const api = axios.create();
 
-export async function getData(url) {
+export async function getData(fileName) {
 
-    const response = await api.get(`../public/data/${url}.json`);
+    try {
+        
+    const response = await api.get(`/data/${fileName}.json`);
 
-    return response.data;
+        return response.data;
+        
+    } catch (error) {
+        
+        console.log('Error: ', error);
+
+    }
 }

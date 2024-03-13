@@ -1,4 +1,10 @@
-export const themeReducer = (state, action) => {
+export const initialState = {
+    loading: true,
+    error: null,
+    data: null
+};
+
+export const reducer = (state, action) => {
 
     switch (action.type) {
 
@@ -6,6 +12,21 @@ export const themeReducer = (state, action) => {
             return {
                 ...state,
                 darkMode: !state.darkMode,
+            }
+        
+        case 'FETCH_SUCCESS':
+            return {
+                ...state,
+                loading: false,
+                data: action.payload,
+                error: null
+            }
+        
+        case 'FETCH_ERROR':
+            return {
+                ...state,
+                loading: false,
+                error: action.payload
             }
         
         default:
