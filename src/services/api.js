@@ -6,7 +6,7 @@ export async function getData(fileName) {
 
     try {
         
-    const response = await api.get(`/data/${fileName}.json`);
+    const response = await api.get(`/public/data/${fileName}.json`);
 
         return response.data;
         
