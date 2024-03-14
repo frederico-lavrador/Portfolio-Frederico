@@ -8,7 +8,7 @@ import { Error } from './pages/Error/Error';
 
 export const router = createBrowserRouter([
 	{
-		path: '/Portfolio-Frederico/',
+		path: '/',
 		element: <App />,
 		children: [
 			{

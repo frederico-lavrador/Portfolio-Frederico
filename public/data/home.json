@@ -1,5 +1,5 @@
 {
-    "home": [
+    "home":
         {
             "id": 1,
             "text": "Hello! I'm",
@@ -8,5 +8,4 @@
             "occupation": "Web Developer",
             "text_end": "."
         }
-    ]
 }

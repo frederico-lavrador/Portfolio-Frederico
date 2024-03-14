@@ -2,12 +2,12 @@ import axios from 'axios'
 
 const api = axios.create();
 
-export async function getData(fileName) {
+export async function getData() {
 
     try {
-        
-    const response = await api.get(`/public/data/${fileName}.json`);
-
+        console.log('Fetching data...');
+        const response = await api.get(`/public/data/home.json`);
+        console.log('Response: ', response.data);
         return response.data;
         
     } catch (error) {

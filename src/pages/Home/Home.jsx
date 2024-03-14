@@ -12,7 +12,7 @@ export function Home() {
 
 			try {
 
-				const fetchedData = await getData('home');
+				const fetchedData = await getData();
 				
 				dispatch({ type: 'FETCH_SUCCESS', payload: fetchedData });
 
@@ -42,9 +42,9 @@ export function Home() {
 				Error: {error.message}
 			</div>
 		)
-	} */
+	}  */
 
-/* 	const [state, dispatch] = useReducer(reducer, initialState);
+    /* 	const [state, dispatch] = useReducer(reducer, initialState);
 
 	useEffect(() => {
 
@@ -76,15 +76,34 @@ export function Home() {
 		return <div>Error: {state.error.message}</div>
 	} else if (!state.data) {
 		return <div>No Data</div>
-	} */
+	}
+ */
+	
+	/* getData().then(data => {
+		console.log(data);
+	}).catch(error => {
+		console.log(error);
+	});
+
+	async function fetchData() {
+		try {
+			const data = await getData();
+			console.log(data);
+			return data;
+		} catch (error) {
+			console.log(error);
+		}
+	}
+
+	const data = fetchData(); */
 
 	return (
 			<section id='hero' className='hero'>
 				<div className='container'>
 					<div className='hero__wrapper'>
 						<h1>
-						Hello! I'm <span>Frederico</span>,<br />a <span>Web Developer</span>.
-					</h1>
+							Hello! I'm <span>Frederico</span>,<br />a <span>Web Developer</span>.
+						</h1>
 					</div>
 				</div>
 			</section>
