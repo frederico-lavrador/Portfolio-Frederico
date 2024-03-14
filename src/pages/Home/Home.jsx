@@ -1,6 +1,6 @@
 import { getData } from '../../services/api'
-import { initialState, reducer } from '../../reducer'
-import { useEffect, useReducer } from 'react'
+import { reducer } from '../../reducer'
+import { useEffect, useReducer, useState } from 'react'
 
 export function Home() {
 
@@ -97,6 +97,30 @@ export function Home() {
 
 	const data = fetchData(); */
 
+	/* const[homePage, setHomePage] = useState();
+
+	useEffect(() => {
+
+		async function fetchData() {
+
+			try {
+				
+				const data = await getData();
+
+				setHomePage(data);
+
+			} catch (error) {
+				
+				console.log('Error: ', error);
+
+			}
+
+		}
+
+		fetchData();
+
+	}, []); */
+	
 	return (
 			<section id='hero' className='hero'>
 				<div className='container'>
