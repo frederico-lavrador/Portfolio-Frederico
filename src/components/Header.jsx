@@ -9,7 +9,7 @@ function Header() {
 				<div className='header__wrapper'>
 					<div className='header__logo'>
 						<h1>
-							<Link>{`<FREDERICO LAVRADOR/>`}</Link>
+							<Link to='/Portfolio-Frederico/'>{`<FREDERICO LAVRADOR/>`}</Link>
 						</h1>
 					</div>
 					<nav className='header__navbar'>
