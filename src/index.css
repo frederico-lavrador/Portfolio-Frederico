@@ -1,28 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); /** This is the Header / Footer Font */
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); /** This is the Body Font */
 
-:root.light {
-	--background-color: #ebebeb;
-	--text-color: #222222;
-	--button-color: #ffa500;
-	--button-background: #ebebeb;
-	--border-color: #222222;
-	--shadow-color: rgba(34, 34, 34, 0.4);
-}
-
-:root.dark {
-	--background-color: #222222;
-	--text-color: #ebebeb;
-	--button-color: #ebebeb;
-	--button-background: #222222;
-	--border-color: #000000;
-	--project-background: #444444;
-	--shadow-color: rgba(0, 0, 0, 0.4);
-}
-
 * {
-	background: var(--background-color);
-	color: var(--text-color);
 	scroll-behavior: smooth;
 }
 
