@@ -26,7 +26,7 @@ export const ThemeProvider = ({ children }) => {
 		const themeLink = document.getElementById('theme-link');
 
 		if (themeLink) {
-			themeLink.href = state.darkMode ? './src/Themes/dark_theme.css' : './src/Themes/light_theme.css';
+			themeLink.href = state.darkMode ? 'src/Themes/dark_theme.css' : 'src/Themes/light_theme.css';
 		}
 
 	}, [state.darkMode]);
