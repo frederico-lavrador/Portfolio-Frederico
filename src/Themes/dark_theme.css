@@ -19,3 +19,9 @@ body {
 	color: #ebebeb;
 	background: #222222;
 }
+
+.projects__item {
+    border: 1px solid #000000;
+	background: #444444;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); 
+}
