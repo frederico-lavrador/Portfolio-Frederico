@@ -9,19 +9,19 @@ function Header() {
 				<div className='header__wrapper'>
 					<div className='header__logo'>
 						<h1>
-							<Link to='/Portfolio-Frederico/'>{`<FREDERICO LAVRADOR/>`}</Link>
+							<Link to='/'>{`<FREDERICO LAVRADOR/>`}</Link>
 						</h1>
 					</div>
 					<nav className='header__navbar'>
 						<ul>
 							<li>
-								<Link to='about'>About Me</Link>
+								<Link to='/about'>About Me</Link>
 							</li>
 							<li>
-								<Link to='projects'>Projects</Link>
+								<Link to='/projects'>Projects</Link>
 							</li>
 							<li>
-								<Link to='contact'>Contact Me</Link>
+								<Link to='/contact'>Contact Me</Link>
 							</li>
 						</ul>
 					</nav>

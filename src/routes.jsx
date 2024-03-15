@@ -8,7 +8,7 @@ import { Error } from './pages/Error/Error';
 
 export const router = createHashRouter([
 	{
-		path: '/Portfolio-Frederico/',
+		path: '/',
 		element: <App />,
 		children: [
 			{
@@ -16,15 +16,15 @@ export const router = createHashRouter([
 				element: <Home />,
 			},
 			{
-				path: 'about',
+				path: '/about',
 				element: <About />,
 			},
 			{
-				path: 'projects',
+				path: '/projects',
 				element: <Projects />,
 			},
 			{
-				path: 'contact',
+				path: '/contact',
 				element: <Contact />,
 			},
 			{
