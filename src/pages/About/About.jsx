@@ -1,3 +1,5 @@
+import imagem_portfolio from '../../assets/foto_portfolio.jpg';
+
 export function About() {
 	return (
 		<section id='about' className='about'>
@@ -18,7 +20,7 @@ export function About() {
 						</p>
 					</div>
 					<div className='about__img'>
-						<img src='../../assets/foto_portfolio.jpg' alt='foto_portfolio' />
+						<img src={imagem_portfolio} alt='foto_portfolio' />
 					</div>
 				</div>
 			</div>
