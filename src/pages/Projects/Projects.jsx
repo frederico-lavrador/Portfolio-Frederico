@@ -20,13 +20,8 @@ export function Projects() {
 					<div className='projects__title'>
 						<h2>{data.projects_title.title}</h2>
 					</div>
-					{/* <h3>Coming Soon!</h3> */}
 					<div className='projects__projects'>
-						{/* <div className='projects__item'>
-							<img src='https://via.placeholder.com/150' />
-							<h1>Project_Title</h1>
-							<p>Project_Description</p>
-						</div> */}
+				
 						{data.projects.map((project) => {
 
 							return (
