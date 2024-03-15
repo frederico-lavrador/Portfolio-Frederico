@@ -44,7 +44,7 @@ export function Home() {
 		)
 	}  */
 
-    /* 	const [state, dispatch] = useReducer(reducer, initialState);
+    /* const [state, dispatch] = useReducer(reducer, initialState);
 
 	useEffect(() => {
 
@@ -76,8 +76,8 @@ export function Home() {
 		return <div>Error: {state.error.message}</div>
 	} else if (!state.data) {
 		return <div>No Data</div>
-	}
- */
+	} */
+
 	
 	/* getData().then(data => {
 		console.log(data);
@@ -121,12 +121,31 @@ export function Home() {
 
 	}, []); */
 	
+	const [data, setData] = useState(null);
+
+	useEffect(() => {
+		const fetchData = async () => {
+			const result = await getData();
+			console.log('Result: ', result);
+			setData(result);
+		}
+		fetchData();
+	}, []);
+
+	if (!data) {
+	return <div>Loading...</div>
+	}
+
+	if (!data.home) {
+		return <div>Loading home data...</div>
+	}
+	
 	return (
 			<section id='hero' className='hero'>
 				<div className='container'>
 					<div className='hero__wrapper'>
 						<h1>
-							Hello! I'm <span>Frederico</span>,<br />a <span>Web Developer</span>.
+						{data.home.text} <span>{data.home.name}</span>{ data.home.connector } <span>{data.home.occupation}</span>.
 						</h1>
 					</div>
 				</div>

@@ -1,0 +1,53 @@
+{
+	"home": {
+		"id": 1,
+		"text": "Hello! I'm",
+		"name": "Frederico",
+		"connector": ", a",
+		"occupation": "Web Developer"
+	},
+
+	"about": {
+		"id": 1,
+		"title": "Hello! I'm Frederico, from Portugal, and I am a Web Developer.",
+		"text": "I took a programming course in highschool focused on back-end development and decided to expand my knowledge in this field by educating myself on front-end development.\nRecently I have learned the basics of JavaScript and React, now, I am looking to learn more about back-end tools, mainly SQL and Node.js.\nI am passionate about programming and I'm always happy to face new challenges.",
+		"hobbies": "Outside of my studies I like spending my time reading about history, philosophy and fantasy. I'm learning how to play the guitar and also want to learn piano and drums. Video-games are also a big passion of mine.",
+		"image": "../src/assets/foto_portfolio.jpg"
+	},
+
+	"projects_title": [
+		{
+			"id": 1,
+			"title": "These are the projects I've worked on:",
+			"empty_placeholder": "Coming Soon!"
+		}
+	],
+
+	"projects": [
+		{
+			"id": 1,
+			"title": "Projeto_1",
+			"description": "This is a project description"
+		},
+		{
+			"id": 2,
+			"title": "Projeto_2",
+			"description": "This is a project description"
+		},
+		{
+			"id": 3,
+			"title": "Projeto_3",
+			"description": "This is a project description"
+		},
+		{
+			"id": 4,
+			"title": "Projeto_4",
+			"description": "This is a project description"
+		},
+		{
+			"id": 5,
+			"title": "Projeto_5",
+			"description": "This is a project description"
+		}
+	]
+}
