@@ -24,27 +24,32 @@
 		{
 			"id": 1,
 			"title": "Projeto_1",
-			"description": "This is a project description"
+			"description": "This is a project description",
+			"image": "https://via.placeholder.com/150"
 		},
 		{
 			"id": 2,
 			"title": "Projeto_2",
-			"description": "This is a project description"
+			"description": "This is a project description",
+			"image": "https://via.placeholder.com/150"
 		},
 		{
 			"id": 3,
 			"title": "Projeto_3",
-			"description": "This is a project description"
+			"description": "This is a project description",
+			"image": "https://via.placeholder.com/150"
 		},
 		{
 			"id": 4,
 			"title": "Projeto_4",
-			"description": "This is a project description"
+			"description": "This is a project description",
+			"image": "https://via.placeholder.com/150"
 		},
 		{
 			"id": 5,
 			"title": "Projeto_5",
-			"description": "This is a project description"
+			"description": "This is a project description",
+			"image": "https://via.placeholder.com/150"
 		}
 	],
 
