@@ -11,8 +11,7 @@
 		"id": 1,
 		"title": "Hello! I'm Frederico, from Portugal, and I am a Web Developer.",
 		"text": "I took a programming course in highschool focused on back-end development and decided to expand my knowledge in this field by educating myself on front-end development.\nRecently I have learned the basics of JavaScript and React, now, I am looking to learn more about back-end tools, mainly SQL and Node.js.\nI am passionate about programming and I'm always happy to face new challenges.",
-		"hobbies": "Outside of my studies I like spending my time reading about history, philosophy and fantasy. I'm learning how to play the guitar and also want to learn piano and drums. Video-games are also a big passion of mine.",
-		"image": "../src/assets/foto_portfolio.jpg"
+		"hobbies": "Outside of my studies I like spending my time reading about history, philosophy and fantasy. I'm learning how to play the guitar and also want to learn piano and drums. Video-games are also a big passion of mine."
 	},
 
 	"projects_title": [
@@ -49,5 +48,12 @@
 			"title": "Projeto_5",
 			"description": "This is a project description"
 		}
-	]
+	],
+
+	"contact": {
+		"id": 1,
+		"title": "Want to Work with me?",
+		"email": "frederico.lavrador@gmail.com",
+		"phone": "+351 968 107 384"
+	}
 }
