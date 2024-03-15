@@ -14,13 +14,11 @@
 		"hobbies": "Outside of my studies I like spending my time reading about history, philosophy and fantasy. I'm learning how to play the guitar and also want to learn piano and drums. Video-games are also a big passion of mine."
 	},
 
-	"projects_title": [
-		{
+	"projects_title":{
 			"id": 1,
 			"title": "These are the projects I've worked on:",
 			"empty_placeholder": "Coming Soon!"
-		}
-	],
+		},
 
 	"projects": [
 		{

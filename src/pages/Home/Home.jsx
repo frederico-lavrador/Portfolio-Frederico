@@ -18,7 +18,7 @@ export function Home() {
 	const { data, loading } = globalFetch(getData);
 
 	if (loading) {
-	return <div>Loading...</div>
+		return <div>Loading...</div>
 	}
 
 	if (!data.home || !data.home) {
